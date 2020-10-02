@@ -14,6 +14,10 @@ export const Wrapper = styled.div`
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+
+	@media screen and (max-width: 1024px) {
+		width: 100%;
+	}
 `;
 
 export const Logo = styled.img.attrs({
@@ -22,6 +26,10 @@ export const Logo = styled.img.attrs({
 	width: 32px;
 	height: 32px;
 	object-fit: cover;
+
+	@media screen and (max-width: 1024px) {
+		margin-left: 30px;
+	}
 `;
 
 export const IconMenu = styled.img.attrs({
@@ -31,6 +39,9 @@ export const IconMenu = styled.img.attrs({
 	height: 32px;
 	object-fit: cover;
 	cursor: pointer;
+	@media screen and (max-width: 1024px) {
+		margin-right: 30px;
+	}
 `;
 
 export const Content = styled.div`
@@ -67,4 +78,9 @@ export const OptionMenu = styled.li`
 	font-family: "Roboto", sans-serif;
 	color: #fff;
 	font-size: 30px;
+`;
+
+export const Link = styled.a`
+	cursor: pointer;
+	text-decoration: none;
 `;

@@ -12,6 +12,7 @@ import {
 	Menu,
 	ListMenu,
 	OptionMenu,
+	Link,
 } from "./styles";
 
 const Header: React.FC = () => {
@@ -39,7 +40,7 @@ const Header: React.FC = () => {
 				<>
 					<ContainerContent>
 						<Content>
-							<TextContent>Opa</TextContent>
+							<TextContent>Conteúdo</TextContent>
 						</Content>
 					</ContainerContent>
 				</>
@@ -47,10 +48,18 @@ const Header: React.FC = () => {
 				<>
 					<Menu>
 						<ListMenu>
-							<OptionMenu>Home</OptionMenu>
-							<OptionMenu>Perfil</OptionMenu>
-							<OptionMenu>Sobre nós</OptionMenu>
-							<OptionMenu>Contato</OptionMenu>
+							<OptionMenu>
+								<Link>Home</Link>
+							</OptionMenu>
+							<OptionMenu>
+								<Link>Perfil</Link>
+							</OptionMenu>
+							<OptionMenu>
+								<Link>Sobre</Link> nós
+							</OptionMenu>
+							<OptionMenu>
+								<Link>Contato</Link>
+							</OptionMenu>
 						</ListMenu>
 					</Menu>
 				</>
