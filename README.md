@@ -1,44 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center" id="top">
+    <img src="./.github/app.gif" alt="Simple Menu Hamburguer" width="256px"/>
+    <br>
+    <a href="https://miguelrisquelme-simple-menu-hamburguer.netlify.app">Demo  ➤</a>
+</div>
 
-## Available Scripts
+<h1 align="center">Simple Menu Hamburguer</h1>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/miguelrisquelme/simple-menu-hamburguer?color=56BEB8">
 
-### `yarn start`
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/miguelrisquelme/simple-menu-hamburguer?color=56BEB8">
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/miguelrisquelme/simple-menu-hamburguer?color=56BEB8">
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <img alt="License" src="https://img.shields.io/github/license/miguelrisquelme/simple-menu-hamburguer?color=56BEB8">
 
-### `yarn test`
+  <img alt="Github issues" src="https://img.shields.io/github/issues/miguelrisquelme/simple-menu-hamburguer?color=56BEB8" />
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <img alt="Github forks" src="https://img.shields.io/github/forks/miguelrisquelme/simple-menu-hamburguer?color=56BEB8" />
 
-### `yarn build`
+  <img alt="Github stars" src="https://img.shields.io/github/stars/miguelrisquelme/simple-menu-hamburguer?color=56BEB8" />
+</p>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## :dart: About
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+It's a simple menu made with ReactJS and Typescript 🍔
 
-### `yarn eject`
+## :rocket: Technologies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The following tools were used in this project:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## :white_check_mark: Requirements
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-## Learn More
+## :checkered_flag: Starting
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone this project
+$ git clone https://github.com/miguelrisquelme/simple-menu-hamburguer.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Access
+$ cd simple-menu-hamburguer
+
+# Install dependencies
+$ yarn install
+
+# Run the project
+$ yarn start
+
+# The server will initialize in the <http://localhost:3000>
+```
+
+## :memo: License
+
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+
+Made with :heart: by <a href="https://github.com/miguelrisquelme" target="_blank">Miguel Riquelme</a>
+
+&#xa0;
+
+<a href="#top">Back to top</a>
